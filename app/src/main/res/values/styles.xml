@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppStyle.SubTitle" parent="AppStyle.TextView">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="AppStyle.Title" parent="AppStyle.BaseTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppStyle.BaseTitle" parent="AppStyle.TextView">
+        <item name="android:textSize">19dp</item>
+    </style>
+    <style name="AppStyle.TextView" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_margin">6dp</item>
+    </style>
+    <style name="AppStyle.DialogButton"  parent="AppStyle.BaseButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="AppStyle.BaseButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppStyle.BaseEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppStyle.MatchMatchBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+    <style name="AppStyle.ToolBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AppStyle.FragmentContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="TransmitSecurityAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#343896</item>
+        <item name="colorPrimaryDark">#292C78</item>
+        <item name="colorAccent">#343896</item>
+    </style>
+    <style name="AppStyle"/>
+</resources>

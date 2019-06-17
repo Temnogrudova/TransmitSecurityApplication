@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/rl_activity_general_container"
+        style="@style/AppStyle.MatchMatchBackground">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/authentificators_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tool_bar"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+        <ProgressBar
+            android:id="@+id/network_progress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</layout>

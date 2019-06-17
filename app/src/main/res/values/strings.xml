@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TransmitSecurity</string>
+    <string name="authenticator_et_password_hint">your password here</string>
+    <string name="authenticator_et_pincode_hint">your pincode here</string>
+    <string name="authenticator_btn_submit">Submit</string>
+    <string name="authenticator_list_subtitle">Subhead about this</string>
+    <string name="authentication_fail_btn_try">Try something else</string>
+    <string name="authentication_fail_tv_error_title">Authentication failed!</string>
+    <string name="authentication_fail_tv_error_message">Authentication failed due too many invalid inputs. Therefore authenticator is locked</string>
+    <string name="fingerprint_dialog_btn_positive">Use fingerprint</string>
+    <string name="fingerprint_dialog_btn_negative">Cancel</string>
+    <string name="fingerprint_dialog_tv_title">Fingerprint authenticator</string>
+
+</resources>

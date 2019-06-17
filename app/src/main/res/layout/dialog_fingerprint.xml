@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.transmitsecurity.ekaterinatemnogrudova.transmitsecurity.AuthenticatorsActivity">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/AppStyle.BaseTitle"
+                android:text="@string/fingerprint_dialog_tv_title"/>
+            <Button
+                android:id="@+id/btn_ok"
+                style="@style/AppStyle.DialogButton"
+                android:text="@string/fingerprint_dialog_btn_positive"/>
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/AppStyle.DialogButton"
+                android:text="@string/fingerprint_dialog_btn_negative"
+                android:layout_marginRight="120dp"
+                android:layout_marginEnd="120dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>
